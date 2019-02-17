@@ -1,4 +1,4 @@
-update=Вс 10 фев 2019 21:43:56
+update=Вс 17 фев 2019 08:03:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../../../usr/share/kicad/modules
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -165,5 +167,3 @@ LibName135=/home/vmv/kicad chems/kicad-library/library/xilinx-virtex6
 LibName136=/home/vmv/kicad chems/kicad-library/library/xilinx-virtex7
 LibName137=/home/vmv/kicad chems/kicad-library/library/zetex
 LibName138=/home/vmv/kicad chems/kicad-library/library/Zilog
-[general]
-version=1
