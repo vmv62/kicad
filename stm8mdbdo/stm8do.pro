@@ -1,4 +1,4 @@
-update=Вс 17 фев 2019 08:03:37
+update=Вт 19 фев 2019 21:07:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -167,3 +167,4 @@ LibName135=/home/vmv/kicad chems/kicad-library/library/xilinx-virtex6
 LibName136=/home/vmv/kicad chems/kicad-library/library/xilinx-virtex7
 LibName137=/home/vmv/kicad chems/kicad-library/library/zetex
 LibName138=/home/vmv/kicad chems/kicad-library/library/Zilog
+LibName139=/home/vmv/Downloads/rcl
