@@ -47,7 +47,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 4000 4850 4000
 Wire Wire Line
-	4850 4000 4850 3850
+	4850 4000 4850 3900
 Wire Wire Line
 	4850 3850 5050 3850
 Text GLabel 4650 4150 0    60   Input ~ 0
@@ -132,4 +132,6 @@ Wire Wire Line
 	8850 1600 8850 1750
 Text Notes 4400 1250 0    60   ~ 0
 Доделать: ставить терминатор, разъем.
+Wire Wire Line
+	4850 3900 4850 3850
 $EndSCHEMATC
