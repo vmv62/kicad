@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\gits\kicad\stm8mdbdo\stm8do.sch)
-    (date "01.03.2019 14:29:57")
+    (date "01.03.2019 16:01:44")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -118,7 +118,7 @@
       (tstamp 5C66D69F))
     (comp (ref P5)
       (value DO)
-      (footprint Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical_SMD_Pin1Left)
+      (footprint Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical)
       (libsource (lib stm8do-rescue) (part CONN_01X05) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C673839))

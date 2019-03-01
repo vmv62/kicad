@@ -328,7 +328,7 @@ U 1 1 5C673839
 P 10850 2350
 F 0 "P5" H 10850 2650 50  0000 C CNN
 F 1 "DO" V 10950 2350 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical_SMD_Pin1Left" H 10850 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 10850 2350 50  0001 C CNN
 F 3 "" H 10850 2350 50  0000 C CNN
 	1    10850 2350
 	1    0    0    -1  
