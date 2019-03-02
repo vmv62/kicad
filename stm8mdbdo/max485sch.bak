@@ -279,4 +279,19 @@ Wire Wire Line
 	6150 6350 6150 6250
 Wire Wire Line
 	6150 5950 6150 5850
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5C7DD416
+P 8150 5250
+F 0 "J2" H 8230 5242 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8230 5151 50  0000 L CNN
+F 2 "" H 8150 5250 50  0001 C CNN
+F 3 "~" H 8150 5250 50  0001 C CNN
+	1    8150 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 5250 0    60   Input ~ 0
+A
+Text GLabel 7950 5350 0    60   Input ~ 0
+B
 $EndSCHEMATC

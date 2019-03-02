@@ -389,7 +389,7 @@ U 1 1 5C66E5D5
 P 10350 4750
 F 0 "P4" H 10350 4900 50  0000 C CNN
 F 1 "AIN" V 10450 4750 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left" H 10350 4750 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 10350 4750 50  0001 C CNN
 F 3 "" H 10350 4750 50  0000 C CNN
 	1    10350 4750
 	1    0    0    -1  
