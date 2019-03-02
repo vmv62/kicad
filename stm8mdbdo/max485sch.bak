@@ -37,9 +37,9 @@ F 3 "" H 6500 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7450 3750 2    60   Input ~ 0
-A
+A+
 Text GLabel 7450 4050 2    60   Input ~ 0
-B
+B-
 Wire Wire Line
 	7150 4050 7450 4050
 Wire Wire Line
@@ -106,9 +106,9 @@ F 3 "" H 4100 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4250 6400 2    60   Input ~ 0
-A
+A+
 Text GLabel 4950 5800 2    60   Input ~ 0
-B
+B-
 $Comp
 L power:GND #PWR088
 U 1 1 5C6B183A
@@ -142,13 +142,13 @@ F 3 "" H 1850 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2150 6550 2    60   Input ~ 0
-B
+B-
 Wire Wire Line
 	1850 6400 1850 6550
 Wire Wire Line
 	1850 6550 2150 6550
 Text GLabel 2150 5900 2    60   Input ~ 0
-A
+A+
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5C7B2D40
@@ -285,13 +285,13 @@ U 1 1 5C7DD416
 P 8150 5250
 F 0 "J2" H 8230 5242 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 8230 5151 50  0000 L CNN
-F 2 "" H 8150 5250 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8150 5250 50  0001 C CNN
 F 3 "~" H 8150 5250 50  0001 C CNN
 	1    8150 5250
 	1    0    0    -1  
 $EndComp
 Text GLabel 7950 5250 0    60   Input ~ 0
-A
+A+
 Text GLabel 7950 5350 0    60   Input ~ 0
-B
+B-
 $EndSCHEMATC
