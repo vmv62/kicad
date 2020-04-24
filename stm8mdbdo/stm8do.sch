@@ -245,13 +245,13 @@ F 3 "" H 8750 4450 60  0001 C CNN
 	1    8650 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 2550 0    60   Input ~ 0
+Text GLabel 7900 2450 0    60   Input ~ 0
 OUT3
-Text GLabel 7950 900  0    60   Input ~ 0
+Text GLabel 7900 800  0    60   Input ~ 0
 OUT1
-Text GLabel 7950 1700 0    60   Input ~ 0
+Text GLabel 7900 1600 0    60   Input ~ 0
 OUT2
-Text GLabel 7950 3450 0    60   Input ~ 0
+Text GLabel 7900 3350 0    60   Input ~ 0
 OUT4
 Text GLabel 9400 2550 2    60   Input ~ 0
 Vbb
@@ -586,14 +586,6 @@ Wire Wire Line
 Connection ~ 2400 6900
 Wire Wire Line
 	10450 2150 10650 2150
-Wire Wire Line
-	7950 3450 8200 3450
-Wire Wire Line
-	7950 2550 8200 2550
-Wire Wire Line
-	7950 1700 8200 1700
-Wire Wire Line
-	7950 900  8200 900 
 Wire Wire Line
 	10650 2250 10150 2250
 Wire Wire Line
@@ -2095,4 +2087,144 @@ Wire Wire Line
 Connection ~ 1350 4900
 Wire Wire Line
 	1350 4900 1450 4900
+$Comp
+L Device:R R21
+U 1 1 5DE92298
+P 8050 800
+F 0 "R21" V 8150 800 50  0000 C CNN
+F 1 "1.2k" V 8050 800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 800 50  0001 C CNN
+F 3 "" H 8050 800 50  0000 C CNN
+	1    8050 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5DE9229F
+P 8050 1000
+F 0 "R22" V 7950 1000 50  0000 C CNN
+F 1 "1.2k" V 8050 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 1000 50  0001 C CNN
+F 3 "" H 8050 1000 50  0000 C CNN
+	1    8050 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DE922A6
+P 7900 1000
+F 0 "#PWR0102" H 7900 750 50  0001 C CNN
+F 1 "GND" H 7750 1000 50  0000 C CNN
+F 2 "" H 7900 1000 50  0000 C CNN
+F 3 "" H 7900 1000 50  0000 C CNN
+	1    7900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 800  8200 1000
+$Comp
+L Device:R R23
+U 1 1 5DE9BF84
+P 8050 1600
+F 0 "R23" V 8150 1600 50  0000 C CNN
+F 1 "1.2k" V 8050 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 1600 50  0001 C CNN
+F 3 "" H 8050 1600 50  0000 C CNN
+	1    8050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5DE9BF8B
+P 8050 1800
+F 0 "R24" V 7950 1800 50  0000 C CNN
+F 1 "1.2k" V 8050 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 1800 50  0001 C CNN
+F 3 "" H 8050 1800 50  0000 C CNN
+	1    8050 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DE9BF92
+P 7900 1800
+F 0 "#PWR0103" H 7900 1550 50  0001 C CNN
+F 1 "GND" H 7750 1750 50  0000 C CNN
+F 2 "" H 7900 1800 50  0000 C CNN
+F 3 "" H 7900 1800 50  0000 C CNN
+	1    7900 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1600 8200 1800
+$Comp
+L Device:R R25
+U 1 1 5DEA5D08
+P 8050 2450
+F 0 "R25" V 8150 2450 50  0000 C CNN
+F 1 "1.2k" V 8050 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 2450 50  0001 C CNN
+F 3 "" H 8050 2450 50  0000 C CNN
+	1    8050 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5DEA5D0F
+P 8050 2650
+F 0 "R26" V 7950 2650 50  0000 C CNN
+F 1 "1.2k" V 8050 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 2650 50  0001 C CNN
+F 3 "" H 8050 2650 50  0000 C CNN
+	1    8050 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DEA5D16
+P 7900 2650
+F 0 "#PWR0104" H 7900 2400 50  0001 C CNN
+F 1 "GND" H 7750 2600 50  0000 C CNN
+F 2 "" H 7900 2650 50  0000 C CNN
+F 3 "" H 7900 2650 50  0000 C CNN
+	1    7900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2450 8200 2650
+$Comp
+L Device:R R27
+U 1 1 5DEAF6B6
+P 8050 3350
+F 0 "R27" V 8150 3350 50  0000 C CNN
+F 1 "1.2k" V 8050 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 3350 50  0001 C CNN
+F 3 "" H 8050 3350 50  0000 C CNN
+	1    8050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5DEAF6BD
+P 8050 3550
+F 0 "R28" V 7950 3550 50  0000 C CNN
+F 1 "1.2k" V 8050 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7980 3550 50  0001 C CNN
+F 3 "" H 8050 3550 50  0000 C CNN
+	1    8050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DEAF6C4
+P 7900 3550
+F 0 "#PWR0105" H 7900 3300 50  0001 C CNN
+F 1 "GND" H 7750 3500 50  0000 C CNN
+F 2 "" H 7900 3550 50  0000 C CNN
+F 3 "" H 7900 3550 50  0000 C CNN
+	1    7900 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3350 8200 3550
 $EndSCHEMATC
