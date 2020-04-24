@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:stm32coont-cache
-LIBS:3.3V_power-cache
+LIBS:mosfet_out-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -77,4 +77,10 @@ Wire Wire Line
 	6700 1000 6650 1000
 Wire Wire Line
 	6650 1000 6650 1150
+$Sheet
+S 10500 1250 600  150 
+U 5EA2D0D9
+F0 "Sheet5EA2D0D8" 50
+F1 "discrette_outs.sch" 50
+$EndSheet
 $EndSCHEMATC
